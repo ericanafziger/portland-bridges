@@ -1,9 +1,46 @@
 img {
-  width: 200px;
+  width: 150px;
   margin: 10px;
   border: 1px solid lightgrey;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 95%;
+ overflow: auto;
+ margin-top: 15%;
 }
 
 table {
   font-family: 'Open Sans Condensed', sans-serif;
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  color: #38564F;
+  font-size: 26px;
+  text-align: center;
+}
+tbody tr {
+  border: 1px solid #38564F;
+}
+td, th {
+  padding: 9px;
+}
+td:first-child {
+  font-size: 1.2em;
+  padding-right: 100px;
+}
+tbody tr td:first-child {
+  width: 50px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap; /* prevents text from breaking onto new line*/
+}
+tbody tr:nth-child(even) {
+  background: #EFEFEE;
 }
