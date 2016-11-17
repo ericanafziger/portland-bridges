@@ -18,7 +18,11 @@ table {
   margin: 0 auto;
   font-size: 1.1em;
 }
-
+td img {
+  width: 25px;
+  border: none;
+  outline: none;
+}
 h1 {
   font-family: 'Kaushan Script', cursive;
   color: #38564F;
@@ -35,7 +39,8 @@ td:first-child {
   font-size: 1.2em;
   padding-right: 100px;
 }
-tbody tr td:first-child {
+
+tbody tr td:first-child{
   width: 50px;
   overflow: hidden;
   display: inline-block;
